@@ -1,0 +1,21 @@
+{
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon src/index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+
+    "dependencies": {
+        "express": "^4.17.1",
+        "init": "^0.1.2",
+        "mongodb": "^3.6.6",
+        "mongoose": "^5.12.5",
+        "nodemon": "^2.0.7",
+        "validator": "^13.5.2"
+    }
+}
